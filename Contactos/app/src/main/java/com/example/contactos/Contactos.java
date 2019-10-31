@@ -29,6 +29,8 @@ public class Contactos extends AppCompatActivity {
         LinearLayoutManager linearManager = new LinearLayoutManager(getApplicationContext());
         recyclerViewNames.setLayoutManager(linearManager);
 
+
+
         List<Persona> datos = listaContactos();
 
         NameAdapter nameAdapter = new NameAdapter(datos);
